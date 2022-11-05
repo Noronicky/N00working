@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     use HasFactory;
+    
+    public function index(Post $post)
+    {
+    return view('posts/index')->with(['posts' => $post->getPaginateByLimit()]);
+    
+    } 
+
 }
