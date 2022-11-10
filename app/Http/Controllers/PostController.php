@@ -7,9 +7,10 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 
-public function show(Post $post)
+
+public function create()
 {
-    return view('posts/show')->with(['post' => $post]);
+    return view('posts/create');
 }
 
 ?>
