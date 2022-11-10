@@ -13,6 +13,8 @@
                 <h2 class='title'>Title</h2>
                 <p class='body'>This is a sample body.</p>
             </div>
+            <a href='/posts/create'>create</a>
         </div>
     </body>
 </html>
+
